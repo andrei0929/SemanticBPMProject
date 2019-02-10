@@ -12,6 +12,8 @@
 		4C60032D220F70DE004A6255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C60032B220F70DE004A6255 /* Main.storyboard */; };
 		4C60032F220F70E0004A6255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C60032E220F70E0004A6255 /* Assets.xcassets */; };
 		4C600332220F70E0004A6255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C600330220F70E0004A6255 /* LaunchScreen.storyboard */; };
+		BB3940E6221009E100F49177 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3940E5221009E100F49177 /* RootViewController.swift */; };
+		BB3940E82210155600F49177 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3940E72210155600F49177 /* OrderDetailsViewController.swift */; };
 		BB69E4C2220F947600EC3245 /* SPARQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69E4C1220F947600EC3245 /* SPARQLClient.swift */; };
 		BB69E4C4220F952800EC3245 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69E4C3220F952800EC3245 /* Menu.swift */; };
 		BB69E4C6220F955100EC3245 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69E4C5220F955100EC3245 /* Item.swift */; };
@@ -25,6 +27,8 @@
 		4C60032E220F70E0004A6255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C600331220F70E0004A6255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C600333220F70E0004A6255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3940E5221009E100F49177 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		BB3940E72210155600F49177 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
 		BB69E4C1220F947600EC3245 /* SPARQLClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPARQLClient.swift; sourceTree = "<group>"; };
 		BB69E4C3220F952800EC3245 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		BB69E4C5220F955100EC3245 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -61,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				4C600327220F70DE004A6255 /* AppDelegate.swift */,
+				BB3940E5221009E100F49177 /* RootViewController.swift */,
 				4C600329220F70DE004A6255 /* ViewController.swift */,
+				BB3940E72210155600F49177 /* OrderDetailsViewController.swift */,
 				BB69E4C1220F947600EC3245 /* SPARQLClient.swift */,
 				4C60032B220F70DE004A6255 /* Main.storyboard */,
 				4C60032E220F70E0004A6255 /* Assets.xcassets */,
@@ -146,7 +152,9 @@
 			files = (
 				BB69E4C6220F955100EC3245 /* Item.swift in Sources */,
 				4C60032A220F70DE004A6255 /* ViewController.swift in Sources */,
+				BB3940E6221009E100F49177 /* RootViewController.swift in Sources */,
 				BB69E4C2220F947600EC3245 /* SPARQLClient.swift in Sources */,
+				BB3940E82210155600F49177 /* OrderDetailsViewController.swift in Sources */,
 				BB69E4C4220F952800EC3245 /* Menu.swift in Sources */,
 				4C600328220F70DE004A6255 /* AppDelegate.swift in Sources */,
 			);

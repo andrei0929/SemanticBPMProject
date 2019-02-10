@@ -16,9 +16,10 @@ struct MenusResult: Codable {
     }
 }
 
-struct Menu: Codable {
+class Menu: Codable {
     var name: String
     var uri: String
+    var items: [Item]
     
     enum CodingKeys: String, CodingKey {
         case name
@@ -30,7 +31,7 @@ struct Menu: Codable {
         case value
     }
     
-    init(from decoder: Decoder) throws {
+    required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         let nameInfo = try values.nestedContainer(keyedBy: NestedKeys.self, forKey: .name)
@@ -38,6 +39,8 @@ struct Menu: Codable {
         
         let menuInfo = try values.nestedContainer(keyedBy: NestedKeys.self, forKey: .menu)
         uri = try menuInfo.decode(String.self, forKey: .value)
+        
+        items = []
     }
     
     func encode(to encoder: Encoder) throws {
